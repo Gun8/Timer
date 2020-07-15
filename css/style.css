@@ -1,0 +1,51 @@
+body{
+    background-color: #722fb5;
+    color: #fff;
+}
+
+.timer{
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'RobotoLight';
+}
+
+.timer h1{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.timer .timer-numbers{
+    margin-bottom: 20px;
+}
+
+.timer .timer-numbers span:nth-child(1){
+    margin: 0;
+}
+
+.timer .timer-numbers span{
+    margin-left: -3px;
+    font-size: 40px;
+}
+
+.timer .timer-btns{
+    display: flex;
+    justify-content: center;
+}
+
+.timer .timer-btns .btn:nth-child(1){
+    margin-left: 0;
+}
+
+.timer .timer-btns .btn{
+    padding: 12px 0;
+    border: 1px #fff solid;
+    width: 160px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.timer .timer-btns .btn:hover{
+    background-color: #945ace;
+}
