@@ -15,7 +15,6 @@ window.addEventListener('DOMContentLoaded', () => {
         let timeInterval = setInterval(updateClock, 1000);
 
         function updateClock() {
-            console.log(passedSeconds);
             clock.sec = Math.floor(passedSeconds % 60);
             clock.min = Math.floor(passedSeconds / 60);
             if (clock.sec < 10)
